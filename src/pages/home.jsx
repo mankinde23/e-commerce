@@ -19,6 +19,26 @@ const Home = () => {
 
     return (
         <div>
+            <React.Fragment>
+                {/* <Navbar /> */}
+
+
+                <div className='container'>
+
+                    {
+                        data?.map((item) => (
+
+                            <div className='container1' onClick={() => handleClick(item.id)}>
+                                <div className='random'> <img src={item.image} alt="" /> </div>
+                                <p> {item.title}</p>
+                                <p> {item.price}</p>
+                            </div>
+                        ))
+                    }
+
+
+                </div>
+            </React.Fragment>
 
 
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import './home.css'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 const Home = () => {

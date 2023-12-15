@@ -1,0 +1,11 @@
+.random img {
+    width: 200px;
+    height: 172px;
+}
+
+.container {
+    border: 2px solid black;
+
+    justify-content: center;
+
+}
